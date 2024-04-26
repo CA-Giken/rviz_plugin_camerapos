@@ -1,0 +1,17 @@
+<!-- plugin.xml -->
+
+<!-- プラグインスクリプトが格納されているパスを指定する -->
+<library path="scripts">
+  <!-- あとで作成するプラグインスクリプトをインポートする際のクラス名です -->
+  <!-- 今は仮でこのように設定しておきます -->
+  <class name="rviz_plugin_camerapos" type="rviz_plugin_camerapos.rviz_plugin_camerapos.RvizPluginCamerapos" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      rviz plugin camerapos
+    </description>
+    <qtgui>
+      <label>rviz_plugin_camerapos</label>
+      <icon type="theme">applications-other</icon>
+      <statustip>rviz_plugin_camerapos</statustip>
+    </qtgui>
+  </class>
+</library>
