@@ -1,0 +1,22 @@
+pos_list:
+    - name: テスト
+      x: 0
+      y: 0
+      z: 0
+      rx: 0
+      ry: 0
+      rz: 0
+    - name: テスト2
+      x: 1
+      y: 2
+      z: 3
+      rx: 4
+      ry: 5
+      rz: 6
+    - name: テスト3
+      x: 4
+      y: 5
+      z: 2
+      rx: 42
+      ry: 109
+      rz: 642

@@ -1,0 +1,5 @@
+<launch>
+    <node name="camerapos" pkg="rviz_plugin_camerapos" type="camerapos_panel" output="screen">
+        <rosparam command="load" file="$(find rviz_plugin_camerapos)/config.yaml"/>
+    </node>
+</launch>
