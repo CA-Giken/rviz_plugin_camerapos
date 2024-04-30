@@ -1,0 +1,9 @@
+<!-- plugin_description.xml -->
+
+<library path="lib/librviz_plugin_camerapos">
+  <class name="rviz_plugin_camerapos/CameraposPanel" type="rviz_plugin_camerapos::CameraposPanel" base_class_type="rviz::Panel">
+    <description>
+      rviz plugin camerapos
+    </description>
+  </class>
+</library>
